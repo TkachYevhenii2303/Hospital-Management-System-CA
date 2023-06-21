@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Hospital_Management_System_Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Hospital_Management_System_Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hospital_Management_System_Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Hospital_Management_System_Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Hospital_Management_System_Infrastructure/Hospital_Management_System_Infrastructure.csproj",
+      "msbuildProject": "../Hospital_Management_System_Infrastructure/Hospital_Management_System_Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Hospital_Management_System_Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\admin\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Education - Programming and Books\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_Cleant_Architecture\\Hospital_Management_System_Infrastructure\\Hospital_Management_System_Infrastructure.csproj": {
+              "projectPath": "D:\\Education - Programming and Books\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_Cleant_Architecture\\Hospital_Management_System_Infrastructure\\Hospital_Management_System_Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
