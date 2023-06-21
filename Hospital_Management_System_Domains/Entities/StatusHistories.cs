@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class StatusHistories : AuditableEntity
+    public class StatusHistories : BaseAuditableEntity
     {
         public string Details { get; set; } = string.Empty;
 

@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class PatientsCases : AuditableEntity
+    public class PatientsCases : BaseAuditableEntity
     {
         public DateTime StartTime { get; set; }
 

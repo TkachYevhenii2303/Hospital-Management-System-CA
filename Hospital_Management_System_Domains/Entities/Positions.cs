@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class Positions : AuditableEntity
+    public class Positions : BaseAuditableEntity
     {
         public string RolesTitle { get; set; } = string.Empty;
 

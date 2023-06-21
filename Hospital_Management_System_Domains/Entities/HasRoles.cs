@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class HasRoles : AuditableEntity
+    public class HasRoles : BaseAuditableEntity
     {
         public Employees Employees { get; set; } = default!;
 

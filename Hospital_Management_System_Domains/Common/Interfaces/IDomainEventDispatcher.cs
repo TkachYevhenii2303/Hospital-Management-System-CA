@@ -8,6 +8,6 @@ namespace Hospital_Management_System_Domains.Common.Interfaces
 {
     public interface IDomainEventDispatcher
     {
-
+        Task DispatchAndClearEventsAsync(IEnumerable<BaseEntity> entitiesWithEvents);
     }
 }

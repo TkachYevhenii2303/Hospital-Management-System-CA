@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class InDepartments : AuditableEntity
+    public class InDepartments : BaseAuditableEntity
     {
         public DateTime TimeFrom { get; set; }
 
