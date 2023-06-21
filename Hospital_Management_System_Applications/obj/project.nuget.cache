@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "3SyEHOeN5KI3b2nEU5sMEVp3JsgVLFAysEFIHGPVEeMyaQdZERP/ONSsIPZMk5u6HbE57nzOFGZd5AeuwdSdcA==",
+  "dgSpecHash": "BI/OXkPBjx6bCfcuN/Lzjsd6JQhrDQrqxiY+hKRdmB+iWM8ViCnrrdfKeJTaDYzFmM7B9asmsniYKw4MLWwEJQ==",
   "success": true,
   "projectFilePath": "D:\\Education - Programming and Books\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_Cleant_Architecture\\Hospital_Management_System_Applications\\Hospital_Management_System_Applications.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

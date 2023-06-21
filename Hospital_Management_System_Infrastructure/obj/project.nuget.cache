@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bY+IengGm0XRvphYPlFUpjC4ZOS5JhwpbzsF221ICy9H3mYPMmojYnH/FxeRYIh9YR46MW8tAriaxCcNXoS/lQ==",
+  "dgSpecHash": "hwWkURLe/fDdV7vNWBWLibdLmKUpmrOsB2cHsc3HNdHRUfkA5/gSpd9zOYVIgGIhwGaPzktjIqoL5xhUtEwVPQ==",
   "success": true,
   "projectFilePath": "D:\\Education - Programming and Books\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_Cleant_Architecture\\Hospital_Management_System_Infrastructure\\Hospital_Management_System_Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

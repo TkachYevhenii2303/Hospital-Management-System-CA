@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class Employees : AuditableEntity
+    public class Employees : BaseAuditableEntity
     {
         public string FirstName { get; set; } = string.Empty;
 
@@ -14,7 +14,7 @@ namespace Hospital_Management_System_DAL.Entities
 
         public string Mobile { get; set; } = string.Empty;
 
-        public bool ActiveIs { get; set; } = true;
+        public bool? ActiveIs { get; set; } = true;
 
         public ICollection<HasRoles> HasRoles { get; set; } = null!;    
 

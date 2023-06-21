@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Hospital_Management_System_Domains.Common
 {
-    public class AuditableEntity : BaseEntity, IAuditableEntity
+    public class BaseAuditableEntity : BaseEntity, IAuditableEntity
     {
         public DateTime CreatedDateTime { get; set; }
         public DateTime? UpdatedDateTime { get; set; }

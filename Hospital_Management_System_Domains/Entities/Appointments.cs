@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class Appointments : AuditableEntity
+    public class Appointments : BaseAuditableEntity
     {
         public DateTime AppointmentStartTime { get; set; }
 

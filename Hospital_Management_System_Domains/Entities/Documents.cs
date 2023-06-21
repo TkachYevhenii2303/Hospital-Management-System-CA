@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class Documents : AuditableEntity
+    public class Documents : BaseAuditableEntity
     {
         public string DocumentsTitle { get; set; } = string.Empty;
 

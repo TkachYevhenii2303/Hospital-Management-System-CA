@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class Shedules : AuditableEntity
+    public class Shedules : BaseAuditableEntity
     {
         public DateTime TimeStart { get; set; }
 

@@ -2,7 +2,7 @@
 
 namespace Hospital_Management_System_DAL.Entities
 {
-    public class AppointmentsStatuses : AuditableEntity
+    public class AppointmentsStatuses : BaseAuditableEntity
     {
         public string StatusTitle { get; set; } = string.Empty; 
 
