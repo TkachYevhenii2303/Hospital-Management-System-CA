@@ -11,7 +11,9 @@ namespace Hospital_Management_System_Domains.Common
     public class BaseEntity : IEntity
     {
         public Guid ID { get; set; }
-        
+
+        public BaseEntity() => this.ID = Guid.NewGuid();
+
         private readonly List<BaseEvent> _domainEvents = new();
 
         [NotMapped]

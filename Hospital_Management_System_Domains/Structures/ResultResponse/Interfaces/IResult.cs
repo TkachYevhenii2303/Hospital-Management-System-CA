@@ -14,8 +14,6 @@ namespace Hospital_Management_System_Domains.Structures.WrapperResponse.Interfac
         
         bool Succeeded { get; set; }
 
-        Exception Exception { get; set; }
-
         int StatusCode { get; set; }
     }
 }

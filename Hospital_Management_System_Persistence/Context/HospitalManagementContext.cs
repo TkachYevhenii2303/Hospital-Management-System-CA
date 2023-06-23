@@ -1,6 +1,7 @@
 ﻿using Hospital_Management_System_DAL.Entities;
 using Hospital_Management_System_Domains.Common;
 using Hospital_Management_System_Domains.Common.Interfaces;
+using Hospital_Management_System_Persistence.Seeding;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,8 @@ namespace Hospital_Management_System_Persistence.Context
             _dispatcher = dispatcher;
         }
 
+        #region DbSets for each entity from the database
+        
         public DbSet<Employees> Employees => Set<Employees>();
         public DbSet<Positions> Positions => Set<Positions>();
         public DbSet<HasRoles> HasRoles => Set<HasRoles>();
@@ -37,10 +40,15 @@ namespace Hospital_Management_System_Persistence.Context
         public DbSet<DocumentsTypes> DocumentsTypes => Set<DocumentsTypes>();
         public DbSet<Documents> Documents => Set<Documents>();
 
+        #endregion
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            SeedingConfigurations(modelBuilder);
         }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
@@ -57,6 +65,25 @@ namespace Hospital_Management_System_Persistence.Context
             await _dispatcher.DispatchAndClearEventsAsync(entitiesWithEvent);
 
             return result;
+        }
+
+        private void SeedingConfigurations(ModelBuilder modelBuilder)
+        {
+            var seeding = new SeedingWithBogus();
+
+            modelBuilder.Entity<Employees>().HasData(seeding.Employees);
+            modelBuilder.Entity<Positions>().HasData(seeding.Positions);
+            modelBuilder.Entity<HasRoles>().HasData(seeding.HasRoles);
+            modelBuilder.Entity<Hospitals>().HasData(seeding.Hospitals);
+            modelBuilder.Entity<InDepartments>().HasData(seeding.InDepartments);
+            modelBuilder.Entity<Departments>().HasData(seeding.Departments);
+            modelBuilder.Entity<Shedules>().HasData(seeding.Shedules);
+            modelBuilder.Entity<Patients>().HasData(seeding.Patients);
+            modelBuilder.Entity<PatientsCases>().HasData(seeding.PatientsCases);
+            modelBuilder.Entity<AppointmentsStatuses>().HasData(seeding.AppointmentsStatuses);
+            modelBuilder.Entity<Appointments>().HasData(seeding.Appointments);
+            modelBuilder.Entity<DocumentsTypes>().HasData(seeding.DocumentsTypes);
+            modelBuilder.Entity<Documents>().HasData(seeding.Documents);
         }
     }
 }

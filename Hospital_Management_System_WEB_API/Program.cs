@@ -1,28 +1,34 @@
+using Hospital_Management_System_Applications.Extensions;
 using Hospital_Management_System_Infrastructure.Extensions;
+using Hospital_Management_System_Persistence.Extensions;
+using Hospital_Management_System_WEB_API.Extensions;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddRazorPages();
-
+builder.Services.AddApplicationLayer();
 builder.Services.AddInfrastructureLayer();
+builder.Services.AddPersistenceLayer(builder.Configuration);
+builder.Services.AddPresentationLayer();
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    app.UseSwagger();
 
-    app.UseHsts();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+        options.RoutePrefix = string.Empty;
+    });
 }
 
-app.UseHttpsRedirection();
+app.AddWebApplicationLayer();
 
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapRazorPages();
+app.MapControllers();
 
 app.Run();
