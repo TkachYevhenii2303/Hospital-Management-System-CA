@@ -75,7 +75,6 @@ namespace Hospital_Management_System_Persistence.Seeding
 
         #endregion
 
-       
         public SeedingWithBogus()
         {
             Employees = SeedingEmployees();
@@ -104,7 +103,7 @@ namespace Hospital_Management_System_Persistence.Seeding
 
             DocumentsTypes = SeedingDocumentsTypes();
 
-            Documents = SeedingDocuments(Patients, PatientsCases, InDepartments, Appointments, DocumentsTypes);
+            Documents = SeedingDocuments(Patients, PatientsCases, InDepartments, DocumentsTypes);
         }
 
         private static IReadOnlyCollection<Employees> SeedingEmployees()
@@ -256,7 +255,7 @@ namespace Hospital_Management_System_Persistence.Seeding
             return documentsTypes;
         }
 
-        private static IReadOnlyCollection<Documents> SeedingDocuments(IEnumerable<Patients> patients, IEnumerable<PatientsCases> patientsCases, IEnumerable<InDepartments> inDepartments, IEnumerable<Appointments> appointments, IEnumerable<DocumentsTypes> documentsTypes)
+        private static IReadOnlyCollection<Documents> SeedingDocuments(IEnumerable<Patients> patients, IEnumerable<PatientsCases> patientsCases, IEnumerable<InDepartments> inDepartments, IEnumerable<DocumentsTypes> documentsTypes)
         {
             var documents = new Faker<Documents>()
                 .RuleFor(x => x.DocumentsTitle, f => f.Commerce.Product())
@@ -264,7 +263,6 @@ namespace Hospital_Management_System_Persistence.Seeding
                 .RuleFor(x => x.DocumentsLink, f => f.Internet.Url())
                 .RuleFor(x => x.PatientsId, f => f.PickRandom(patients).ID)
                 .RuleFor(x => x.InDepartmentId, f => f.PickRandom(inDepartments).ID)
-                .RuleFor(x => x.AppointmentsId, f => f.PickRandom(appointments).ID)
                 .RuleFor(x => x.DocumentsTypesId, f => f.PickRandom(documentsTypes).ID)
                 .RuleFor(x => x.PatientCaseId, f => f.PickRandom(patientsCases).ID)
                 .Generate(DOCUMENTS);

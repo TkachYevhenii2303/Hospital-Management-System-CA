@@ -25,9 +25,5 @@ namespace Hospital_Management_System_DAL.Entities
         public InDepartments InDepartment { get; set; } = null!;
 
         public Guid InDepartmentId { get; set; }
-
-        public Appointments Appointments { get; set; } = null!;
-
-        public Guid AppointmentsId { get; set; }
     }
 }

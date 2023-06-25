@@ -11,4 +11,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.7" PrivateAssets="all" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hospital_Management_System_Applications\Hospital_Management_System_Applications.csproj" />
+    <ProjectReference Include="..\Hospital_Management_System_Domains\Hospital_Management_System_Domains.csproj" />
+  </ItemGroup>
+
 </Project>

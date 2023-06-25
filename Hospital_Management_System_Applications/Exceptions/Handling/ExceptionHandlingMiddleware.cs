@@ -22,6 +22,18 @@ namespace Hospital_Management_System_Applications.Exceptions.Handling
             _logger = logger;
         }
 
+        public async Task InvokeAsync(HttpContext httpContext)
+        {
+            try
+            {
+                await _next(httpContext);
+            }
+            catch (Exception exception)
+            {
+                await HandleExceptionAsync(httpContext, exception);
+            }
+        }
+
         private async Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
             context.Response.ContentType = "application/json";
@@ -44,9 +56,10 @@ namespace Hospital_Management_System_Applications.Exceptions.Handling
                     break;
                 default:
                     response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                    errorResponse.Message = "Internal server error!";
+                    errorResponse.Message = $"Internal server error! StatusCode 500! Exception Message {exception.Message}";
                     break;
             }
+
             _logger.LogError(exception.Message);
             var result = JsonSerializer.Serialize(errorResponse);
             await context.Response.WriteAsync(result);

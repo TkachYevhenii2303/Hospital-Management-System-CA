@@ -16,8 +16,6 @@ namespace Hospital_Management_System_DAL.Entities
 
         public Guid InDepartmentsId { get; set; }
 
-        public ICollection<Documents> Documents { get; set; } = null!;
-
         public ICollection<StatusHistories> StatusHistories { get; set; } = null!;
     }
 }

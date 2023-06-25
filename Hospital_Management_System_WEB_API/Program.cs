@@ -11,10 +11,11 @@ builder.Services.AddApplicationLayer();
 builder.Services.AddInfrastructureLayer();
 builder.Services.AddPersistenceLayer(builder.Configuration);
 builder.Services.AddPresentationLayer();
-
 builder.Services.AddControllers();
 
 var app = builder.Build();
+
+app.AddWebApplicationLayer();
 
 if (app.Environment.IsDevelopment())
 {
@@ -26,8 +27,6 @@ if (app.Environment.IsDevelopment())
         options.RoutePrefix = string.Empty;
     });
 }
-
-app.AddWebApplicationLayer();
 
 app.MapControllers();
 

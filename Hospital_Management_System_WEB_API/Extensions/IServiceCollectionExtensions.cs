@@ -1,4 +1,5 @@
-﻿using Microsoft.OpenApi.Models;
+﻿using FluentValidation.AspNetCore;
+using Microsoft.OpenApi.Models;
 using System.Reflection;
 
 namespace Hospital_Management_System_WEB_API.Extensions
@@ -24,6 +25,8 @@ namespace Hospital_Management_System_WEB_API.Extensions
                 var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
             });
+
+          
         }
     }
 }

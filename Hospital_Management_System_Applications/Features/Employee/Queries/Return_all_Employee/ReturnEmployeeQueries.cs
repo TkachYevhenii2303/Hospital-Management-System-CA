@@ -18,23 +18,18 @@ namespace Hospital_Management_System_Applications.Features.Employee.Queries.Retu
     public class ReturnEmployeeQueriesHandler : IRequestHandler<ReturnEmployeeQueries, Result<IEnumerable<ReturnEmployeeDTO>>>
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IMapper _mapper;
 
-        public ReturnEmployeeQueriesHandler(IUnitOfWork unitOfWork)
+        public ReturnEmployeeQueriesHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
         public async Task<Result<IEnumerable<ReturnEmployeeDTO>>> Handle(ReturnEmployeeQueries request, CancellationToken cancellationToken)
         {
-            var configuration = new MapperConfiguration(configuration =>
-            {
-                configuration.CreateMap<Employees, ReturnEmployeeDTO>()
-                .ForMember(destination => destination.FullName,
-                options => options.MapFrom(source => $"{source.FirstName} {source.LastName}"));
-            });
-
             var employee = await _unitOfWork.Repository<Employees>().Entities
-                .ProjectTo<ReturnEmployeeDTO>(configuration.CreateMapper().ConfigurationProvider)
+                .ProjectTo<ReturnEmployeeDTO>(_mapper.ConfigurationProvider)
                 .ToListAsync(cancellationToken);
 
             return await Result<IEnumerable<ReturnEmployeeDTO>>.SuccessAsync(employee, 

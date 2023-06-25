@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Hospital_Management_System_Applications.Common.Mapping.Interfaces;
 using Hospital_Management_System_Applications.Features.Employee.Commands.Insert_Employee;
+using Hospital_Management_System_Applications.Features.Employee.Queries.Return_all_Employee;
 using Hospital_Management_System_Applications.Interfaces.Patterns;
 using Hospital_Management_System_DAL.Entities;
 using Hospital_Management_System_DAL.Wrapper_Response;
@@ -13,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace Hospital_Management_System_Applications.Features.Employee.Commands.Create_Employee
 {
-    public record InsertEmployeeCommand : IRequest<Result<Guid>>, IMappingFrom<Employees>
+    public record InsertEmployeeCommand : IRequest<Result<ReturnEmployeeDTO>>, IMappingFrom<Employees>
     {
         public string FirstName { get; set; } = string.Empty;
 
@@ -26,7 +27,7 @@ namespace Hospital_Management_System_Applications.Features.Employee.Commands.Cre
         public string Mobile { get; set; } = string.Empty;
     }
 
-    internal class InsertEmployeeCommandHandler : IRequestHandler<InsertEmployeeCommand, Result<Guid>>
+    internal class InsertEmployeeCommandHandler : IRequestHandler<InsertEmployeeCommand, Result<ReturnEmployeeDTO>>
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
@@ -37,7 +38,7 @@ namespace Hospital_Management_System_Applications.Features.Employee.Commands.Cre
             _mapper = mapper;
         }
 
-        public async Task<Result<Guid>> Handle(InsertEmployeeCommand request, CancellationToken cancellationToken)
+        public async Task<Result<ReturnEmployeeDTO>> Handle(InsertEmployeeCommand request, CancellationToken cancellationToken)
         {
             Employees employee = new Employees()
             {
@@ -51,7 +52,8 @@ namespace Hospital_Management_System_Applications.Features.Employee.Commands.Cre
             await _unitOfWork.Repository<Employees>().InsertEntityAsync(employee);
             employee.AddDomainEvent(new InsertEmployeeEvent(employee));
             await _unitOfWork.Save(cancellationToken);
-            return await Result<Guid>.SuccessAsync(employee.ID, "The new Employee was inserting into database!!!");
+            return await Result<ReturnEmployeeDTO>.SuccessAsync(_mapper.Map<Employees, ReturnEmployeeDTO>(employee), 
+                _unitOfWork.Repository<Employees>().InsertEntityAsync(employee).Result.Message);
         }
     }
 }
