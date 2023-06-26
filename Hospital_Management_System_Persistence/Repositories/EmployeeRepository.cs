@@ -29,7 +29,9 @@ namespace Hospital_Management_System_Persistence.Repositories
             var result = new Result<IEnumerable<Employees>>();
 
             result.Entity = await _context.Set<Employees>()
-                .Include(x => x.HasRoles.Where(x => x.Roles.RolesTitle == specialization)).ToListAsync();
+                .Where(x => x.HasRoles.Any(x => x.Roles.RolesTitle == specialization))
+                .Include(x => x.HasRoles).ThenInclude(x => x.Roles)
+                .AsNoTracking().ToListAsync();
 
             result.Message = $"Employee Retrieval by Specialization: " +
                 $"Congratulations on implementing the method {ReturnEmployeeBySpecialization(specialization).GetType().Name}";

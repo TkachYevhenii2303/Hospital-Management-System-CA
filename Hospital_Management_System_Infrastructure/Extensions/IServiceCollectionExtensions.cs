@@ -2,6 +2,7 @@
 using Hospital_Management_System_Domains.Common;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using Hospital_Management_System_Infrastructure.Services;
 
 namespace Hospital_Management_System_Infrastructure.Extensions
 {
@@ -13,7 +14,8 @@ namespace Hospital_Management_System_Infrastructure.Extensions
         {
             services
                 .AddTransient<IMediator, Mediator>()
-                .AddTransient<IDomainEventDispatcher, DomainEventDispatcher>();
+                .AddTransient<IDomainEventDispatcher, DomainEventDispatcher>()
+                .AddTransient<ICustomerAdministratorService, CustomerAdministratorService>();
         }
     }
 }

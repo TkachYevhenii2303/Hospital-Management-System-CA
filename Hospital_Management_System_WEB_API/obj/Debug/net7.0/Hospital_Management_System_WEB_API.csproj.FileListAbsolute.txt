@@ -97,3 +97,5 @@ D:\Education - Programming and Books\Learning ASP.NET Core\ASP.NET Core Lessons\
 D:\Education - Programming and Books\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API\obj\Debug\net7.0\Hospital_Management_System_WEB_API.pdb
 D:\Education - Programming and Books\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API\obj\Debug\net7.0\Hospital_Management_System_WEB_API.genruntimeconfig.cache
 D:\Education - Programming and Books\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API\obj\Debug\net7.0\ref\Hospital_Management_System_WEB_API.dll
+D:\Education - Programming and Books\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API\bin\Debug\net7.0\DevOne.Security.Cryptography.BCrypt.dll
+D:\Education - Programming and Books\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API\bin\Debug\net7.0\BCrypt.Net-Next.dll

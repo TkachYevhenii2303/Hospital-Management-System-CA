@@ -4,6 +4,7 @@ using Hospital_Management_System_Applications.Features.Employee.Commands.Insert_
 using Hospital_Management_System_Applications.Features.Employee.Commands.Update_Employee;
 using Hospital_Management_System_Applications.Features.Employee.Queries.Return_all_Employee;
 using Hospital_Management_System_Applications.Features.Employee.Queries.Return_Employee_ID;
+using Hospital_Management_System_Applications.Features.Employee.Queries.Return_Employee_Specialization;
 using Hospital_Management_System_Applications.Features.Employee.Queries.Return_Employee_with_Pagination;
 using Hospital_Management_System_DAL.Wrapper_Response;
 using Hospital_Management_System_Shared.Paginatio;
@@ -59,6 +60,13 @@ namespace Hospital_Management_System_WEB_API.Controllers
             if (!result.IsValid) { return BadRequest(result.Errors.Select(x => x.ErrorMessage).ToList()); }
 
             return await _mediator.Send(query);
+        }
+
+        [HttpGet("Return_Employee_with_Specialization/{Specialization}")]
+        public async Task<ActionResult<Result<IEnumerable<ReturnEmployeeSpecializationDTO>>>> 
+            ReturnEmployeeWithSpecializtionAsync(string Specialization)
+        {
+            return await _mediator.Send(new EmployeeSpecializationQuery(Specialization));
         }
 
         /// <summary>

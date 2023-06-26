@@ -1,6 +1,9 @@
 ﻿
+using System.Text.Json.Serialization;
+
 namespace Hospital_Management_System_DAL.Enums
 {
+    [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum RolesTypesEnum
     {
         Dermatologist = 0,

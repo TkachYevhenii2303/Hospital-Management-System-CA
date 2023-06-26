@@ -36,7 +36,7 @@ namespace Hospital_Management_System_Applications.Features.Employee.Queries.Retu
         public async Task<Result<ReturnEmployeeByIdDTO>> Handle(ReturnEmployeeByIdQueries request, CancellationToken cancellationToken)
         {
             var employee = await _unitOfWork.Repository<Employees>().ReturnEntityByIdAsync(request.ID);
-            var result = _mapper.Map<Employees, ReturnEmployeeByIdDTO>(employee.Entity);
+            var result = _mapper.Map<ReturnEmployeeByIdDTO>(employee.Entity);
 
             return await Result<ReturnEmployeeByIdDTO>.SuccessAsync(result,
                 _unitOfWork.Repository<Employees>().ReturnEntityByIdAsync(request.ID).Result.Message);

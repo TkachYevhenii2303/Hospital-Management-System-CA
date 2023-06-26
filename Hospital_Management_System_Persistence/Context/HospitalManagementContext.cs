@@ -1,6 +1,7 @@
 ﻿using Hospital_Management_System_DAL.Entities;
 using Hospital_Management_System_Domains.Common;
 using Hospital_Management_System_Domains.Common.Interfaces;
+using Hospital_Management_System_Domains.Entities;
 using Hospital_Management_System_Persistence.Seeding;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -39,6 +40,7 @@ namespace Hospital_Management_System_Persistence.Context
         public DbSet<StatusHistories> StatusHistories => Set<StatusHistories>();
         public DbSet<DocumentsTypes> DocumentsTypes => Set<DocumentsTypes>();
         public DbSet<Documents> Documents => Set<Documents>();
+        public DbSet<CustomerAdministrator> CustomerAdministrators => Set<CustomerAdministrator>();
 
         #endregion
 

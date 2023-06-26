@@ -29,7 +29,10 @@ namespace Hospital_Management_System_Applications.Features.Employee.Queries.Retu
         {
             profile.CreateMap<Employees, ReturnEmployeeSpecializationDTO>()
                 .ForMember(destination => destination.FullName,
-                options => options.MapFrom(source => $"{source.FirstName} {source.LastName}"));
+                options => options.MapFrom(source => $"{source.FirstName} {source.LastName}"))
+                
+                .ForMember(destination => destination.Specialization,
+                options => options.MapFrom(source => source.HasRoles.FirstOrDefault().Roles.RolesTitle));
         }
     }
 }

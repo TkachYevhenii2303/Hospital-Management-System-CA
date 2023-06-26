@@ -39,7 +39,16 @@ namespace Hospital_Management_System_Applications.Features.Employee.Queries.Retu
             CancellationToken cancellationToken)
         {
             var employees = await _employeeRepository.ReturnEmployeeBySpecialization(request.Specialization);
-            var result = _mapper.Map<IEnumerable<ReturnEmployeeSpecializationDTO>>(employees);
+
+            if (employees.Entity is not null)
+            {
+                var result = _mapper.Map<IEnumerable<ReturnEmployeeSpecializationDTO>>(employees.Entity);
+                return await Result<IEnumerable<ReturnEmployeeSpecializationDTO>>.SuccessAsync(result, employees.Message);
+            }
+            else
+            {
+                throw new KeyNotFoundException($"No employees found with the {request.Specialization} specialization.");
+            }
         }
     }
 }

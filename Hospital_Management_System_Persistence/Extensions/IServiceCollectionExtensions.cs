@@ -28,7 +28,7 @@ namespace Hospital_Management_System_Persistence.Extensions
 
             services.AddDbContext<HospitalManagementContext>(options =>
             {
-                options.UseSqlServer(connectionString, 
+                options.UseSqlServer(connectionString,
                     builder => builder.MigrationsAssembly("Hospital_Management_System_Migrations"));
             });
         }
@@ -38,7 +38,8 @@ namespace Hospital_Management_System_Persistence.Extensions
             services
                .AddTransient(typeof(IUnitOfWork), typeof(UnitOfWork))
                .AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>))
-               .AddTransient<IEmployeeRepository, EmployeeRepository>();
+               .AddTransient<IEmployeeRepository, EmployeeRepository>()
+               .AddTransient<IAppointmentsRepository, AppointmentsRepository>();
         }
     }
 }
