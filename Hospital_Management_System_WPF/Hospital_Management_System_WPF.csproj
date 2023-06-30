@@ -5,11 +5,31 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\hospital_icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="ViewModel\" />
+    <None Remove="Images\hospital.png" />
+    <None Remove="Images\password.png" />
+    <None Remove="Images\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\hospital_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hospital_Management_System_Domains\Hospital_Management_System_Domains.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\hospital.png" />
+    <Resource Include="Images\password.png" />
+    <Resource Include="Images\user.png" />
   </ItemGroup>
 
 </Project>

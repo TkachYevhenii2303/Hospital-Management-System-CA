@@ -39,5 +39,10 @@ namespace Hospital_Management_System_WPF.View
         {
             Application.Current.Shutdown();
         }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

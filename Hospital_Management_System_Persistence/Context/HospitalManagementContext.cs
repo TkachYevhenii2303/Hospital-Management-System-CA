@@ -2,6 +2,7 @@
 using Hospital_Management_System_Domains.Common;
 using Hospital_Management_System_Domains.Common.Interfaces;
 using Hospital_Management_System_Domains.Entities;
+using Hospital_Management_System_Domains.Entities.Login;
 using Hospital_Management_System_Persistence.Seeding;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -41,6 +42,7 @@ namespace Hospital_Management_System_Persistence.Context
         public DbSet<DocumentsTypes> DocumentsTypes => Set<DocumentsTypes>();
         public DbSet<Documents> Documents => Set<Documents>();
         public DbSet<CustomerAdministrator> CustomerAdministrators => Set<CustomerAdministrator>();
+        public DbSet<UserModel> UserModels => Set<UserModel>();
 
         #endregion
 
@@ -86,6 +88,7 @@ namespace Hospital_Management_System_Persistence.Context
             modelBuilder.Entity<Appointments>().HasData(seeding.Appointments);
             modelBuilder.Entity<DocumentsTypes>().HasData(seeding.DocumentsTypes);
             modelBuilder.Entity<Documents>().HasData(seeding.Documents);
+            modelBuilder.Entity<UserModel>().HasData(seeding.UserModels);
         }
     }
 }

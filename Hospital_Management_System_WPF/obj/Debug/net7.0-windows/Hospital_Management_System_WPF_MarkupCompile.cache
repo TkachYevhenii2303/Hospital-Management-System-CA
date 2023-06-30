@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Education - Programming and Books\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WPF\App.xaml
-2376403462
-
-42104924793
-198-2048575587
-MainWindow.xaml;View\LoginView.xaml;
+3-533280196
+1-1658825472
+12-36077603
+2031175500680
+CustomControls\BindablePasswordBox.xaml;View\LoginView.xaml;View\MainWindow.xaml;
 
 False
 

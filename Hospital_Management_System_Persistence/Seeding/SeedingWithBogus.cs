@@ -1,6 +1,7 @@
 ﻿using Bogus;
 using Hospital_Management_System_DAL.Entities;
 using Hospital_Management_System_DAL.Enums;
+using Hospital_Management_System_Domains.Entities.Login;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,6 +42,8 @@ namespace Hospital_Management_System_Persistence.Seeding
 
         public IReadOnlyCollection<Documents> Documents { get; set; } = new List<Documents>();
 
+        public IReadOnlyCollection<UserModel> UserModels { get; set; } = new List<UserModel>(); 
+
         #endregion
 
         #region Const values for the seeding methods as parameter for Generator(int amount);
@@ -73,6 +76,8 @@ namespace Hospital_Management_System_Persistence.Seeding
 
         private const int DOCUMENTS = 50;
 
+        private const int USER_MODELS = 10;
+
         #endregion
 
         public SeedingWithBogus()
@@ -104,6 +109,8 @@ namespace Hospital_Management_System_Persistence.Seeding
             DocumentsTypes = SeedingDocumentsTypes();
 
             Documents = SeedingDocuments(Patients, PatientsCases, InDepartments, DocumentsTypes);
+
+            UserModels = SeedingUserModels();
         }
 
         private static IReadOnlyCollection<Employees> SeedingEmployees()
@@ -268,6 +275,19 @@ namespace Hospital_Management_System_Persistence.Seeding
                 .Generate(DOCUMENTS);
 
             return documents;
+        }
+
+        private static IReadOnlyCollection<UserModel> SeedingUserModels()
+        {
+            var userModels = new Faker<UserModel>()
+                .RuleFor(x => x.FirstName, f => f.Person.FirstName)
+                .RuleFor(x => x.LastName, f => f.Person.LastName)
+                .RuleFor(x => x.Username, (f, o) => f.Internet.UserName(o.FirstName, o.LastName))
+                .RuleFor(x => x.Email, (f, o) => f.Internet.Email(o.FirstName, o.LastName))
+                .RuleFor(x => x.Password, f => f.Internet.Password())
+                .Generate(USER_MODELS);
+
+            return userModels;
         }
     }
 }
