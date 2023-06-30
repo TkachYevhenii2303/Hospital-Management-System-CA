@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Hospital_Management_System_Applications": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51532;http://localhost:51533"
+    }
+  }
+}
