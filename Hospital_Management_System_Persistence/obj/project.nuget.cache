@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vCglvrtfS/eu83h0jIEm7uXWLlbnAgVHxezH8ewOo2Louoj6GJthEi1znzPe7glzJOqK/vPb9Eac1m123BEGlQ==",
+  "dgSpecHash": "21QBfAL6Q/eligTRCpBCMwq98QLU0Sy7kwAnwwrkSMo1btKb0jYuSQ6yJf9uBoIWjLELEVoAGJLZK/MGr8SIZA==",
   "success": true,
-  "projectFilePath": "D:\\Education - Programming and Books\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_Cleant_Architecture\\Hospital_Management_System_Persistence\\Hospital_Management_System_Persistence.csproj",
+  "projectFilePath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_Cleant_Architecture\\Hospital_Management_System_Persistence\\Hospital_Management_System_Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

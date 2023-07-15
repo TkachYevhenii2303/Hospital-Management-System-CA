@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "msv9kLemyLgcCactFZTy6HIpAR+JKAs940C0IsajuzCSvy8m5rYs/T+Py93dQX7TpWwmyRmx/FoXG3G+vV64kA==",
+  "dgSpecHash": "pMh2YmD3dcPtzlQgvFaxK59WlkJr53to/u6AkwmfIij1zyBnRRnHvoyvkZWOs9A7xahyXuU9FxlqjwYoPXULvg==",
   "success": true,
-  "projectFilePath": "D:\\Education - Programming and Books\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_Cleant_Architecture\\Hospital_Management_System_Shared\\Hospital_Management_System_Shared.csproj",
+  "projectFilePath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_Cleant_Architecture\\Hospital_Management_System_Shared\\Hospital_Management_System_Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

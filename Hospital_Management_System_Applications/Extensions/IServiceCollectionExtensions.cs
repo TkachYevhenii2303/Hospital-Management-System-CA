@@ -15,12 +15,10 @@ namespace Hospital_Management_System_Applications.Extensions
             services.AddAutoMapperConfigurations();
             services.AddMediatorConfigurations();
         }
-
         private static void AddAutoMapperConfigurations(this IServiceCollection services)
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }
-
         private static void AddMediatorConfigurations(this IServiceCollection services) 
         {
             services.AddMediatR(configuration => 

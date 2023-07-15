@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Hospital_Management_System_Applications\Hospital_Management_System_Applications.csproj" />
     <ProjectReference Include="..\Hospital_Management_System_Domains\Hospital_Management_System_Domains.csproj" />
   </ItemGroup>
 
