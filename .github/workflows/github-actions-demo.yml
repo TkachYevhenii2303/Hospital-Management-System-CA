@@ -9,7 +9,9 @@ jobs:
     
     steps:
       - name: Install Dependencies
-        run: npm install
+        run: |
+          npm init
+          npm install
         
       - name: Build Projects
         run: npm run build
