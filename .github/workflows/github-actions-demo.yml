@@ -19,5 +19,5 @@ jobs:
           dotnet-version: '7.0'
           
       - name: Build Project
-        run: npm build
+        run: dotnet build
       
