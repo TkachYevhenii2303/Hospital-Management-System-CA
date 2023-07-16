@@ -1,13 +1,15 @@
 ﻿name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: 
   push:
-    branches: [main]
+    branches: 
+      - main
   pull_request:
-    branches: [ main ]
+    branches: 
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v1
@@ -16,7 +18,3 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '7.0'
-
-      - name: Build and Publish
-        run: dotnet publish -c Release -o ./publish
-          
