@@ -19,7 +19,7 @@ jobs:
           dotnet-version: ${{ matrix.dotnet-version }}
           
       - name: Install dependencies
-        run: 
+        run: |
           npm init --yes
           npm install
         
