@@ -24,7 +24,7 @@ jobs:
           npm install
         
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build Hospital_Management_System_WEB_API.sln --configuration Release --no-restore
       
       - name: Test
         run: dotnet test --no-restore --verbosity normal
