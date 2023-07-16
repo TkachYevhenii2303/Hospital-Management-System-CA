@@ -25,6 +25,6 @@ jobs:
           
       - name: Build and Publish
         run: |
-          cd "D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API"
+          Set-Location -Path "D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API"
           msbuild /t:Publish /p:Configuration=Release
       
