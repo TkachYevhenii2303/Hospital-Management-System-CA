@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: [ ubuntu-latest, windows-latest ]
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -16,7 +16,7 @@ jobs:
         with:
           dotnet-version: '7.0'
           
-      - name: Build and test
+      - name: Build and unit testing
         run: |
           npm run build
           npm test -- --runInBand
