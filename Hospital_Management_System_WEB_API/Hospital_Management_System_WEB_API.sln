@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hospital_Management_System_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital_Management_System_WPF", "..\Hospital_Management_System_WPF\Hospital_Management_System_WPF.csproj", "{7DA10221-1825-46DF-90DC-4CA0611D665E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital_Management_System_Tests", "..\Hospital_Management_System_Tests\Hospital_Management_System_Tests.csproj", "{97115562-FF99-4FF4-8F17-5DB90EC9A9FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{7DA10221-1825-46DF-90DC-4CA0611D665E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DA10221-1825-46DF-90DC-4CA0611D665E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DA10221-1825-46DF-90DC-4CA0611D665E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97115562-FF99-4FF4-8F17-5DB90EC9A9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97115562-FF99-4FF4-8F17-5DB90EC9A9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97115562-FF99-4FF4-8F17-5DB90EC9A9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97115562-FF99-4FF4-8F17-5DB90EC9A9FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{05C41266-8A56-4281-836E-9672B1E184BE} = {726B3AD6-ACE2-494D-94EC-8EA8792A7C3C}
 		{5CAD0A07-187B-465A-81AA-2E59E22A047A} = {726B3AD6-ACE2-494D-94EC-8EA8792A7C3C}
 		{7DA10221-1825-46DF-90DC-4CA0611D665E} = {EE699951-FB40-4D36-85A9-73E050A66217}
+		{97115562-FF99-4FF4-8F17-5DB90EC9A9FE} = {726B3AD6-ACE2-494D-94EC-8EA8792A7C3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F93019C7-4E78-47B1-B9FE-A22A4DABDC3F}

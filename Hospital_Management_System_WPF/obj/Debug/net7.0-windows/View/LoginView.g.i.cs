@@ -87,7 +87,7 @@ namespace Hospital_Management_System_WPF.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Hospital_Management_System_WPF;component/view/loginview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Hospital_Management_System_WPF;V1.0.0.0;component/view/loginview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\LoginView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

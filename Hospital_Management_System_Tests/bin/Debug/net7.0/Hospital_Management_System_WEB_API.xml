@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hospital_Management_System_WEB_API</name>
+    </assembly>
+    <members>
+        <member name="M:Hospital_Management_System_WEB_API.Controllers.AdministratorController.InsertToken(Hospital_Management_System_Domains.Entities.CustomerAdministrator)">
+            <summary>
+            Login operation with our application
+            </summary>
+            <param name="customerAdministratorDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital_Management_System_WEB_API.Controllers.AppointmentsController.ReturnAppointmentsAsync">
+            <summary>
+            Retrieves all appointments asynchronously.
+            </summary>
+            <returns></returns>
+            <response code="200">Returns the objects from database in good way!</response>
+        </member>
+        <member name="M:Hospital_Management_System_WEB_API.Controllers.EmployeeController.ReturnEmployeeAsync">
+            <summary>
+            Retrieves all employees asynchronously.
+            </summary>
+            <returns></returns>
+            <response code="200">Returns the objects from database in good way!</response>
+        </member>
+        <member name="M:Hospital_Management_System_WEB_API.Controllers.EmployeeController.ReturnEmployeeByIdAsync(System.Guid)">
+            <summary>
+            Retrieves an employee asynchronously by their ID.
+            </summary>
+            <param name="ID">The ID of the employee to retrieve.</param>
+            <returns>An ActionResult containing a ResultResponse with a GetEmployeesDTO.</returns>
+        </member>
+        <member name="M:Hospital_Management_System_WEB_API.Controllers.EmployeeController.ReturnEmployeeWithPagination(Hospital_Management_System_Applications.Features.Employee.Queries.Return_Employee_with_Pagination.ReturnEmployeePaginationQuery)">
+            <summary>
+            Retrieves an employee asynchronously using Pagination function
+            </summary>
+            <param name="query">ReturnEmployeePaginationQuery object and base settings</param>
+            <returns>An ActionResult containing a PaginationResult with a ReturnEmployeeWithPaginationDTO.</returns>
+        </member>
+        <member name="M:Hospital_Management_System_WEB_API.Controllers.EmployeeController.InsertEmployeeAsync(Hospital_Management_System_Applications.Features.Employee.Commands.Create_Employee.InsertEmployeeCommand)">
+            <summary>
+            Inserts a new employee asynchronously.
+            </summary>
+            <param name="employeeCommand">The data of the employeeCommand to insert.</param>
+            <returns>An ActionResult containing a Result Wrapper with a ReturnEmployeeDTO representing the inserted employee.</returns>
+        </member>
+        <member name="M:Hospital_Management_System_WEB_API.Controllers.EmployeeController.UpdateEmployeeAsync(System.Guid,Hospital_Management_System_Applications.Features.Employee.Commands.Update_Employee.UpdateEmployeeCommand)">
+            <summary>
+            Updates an existing employee asynchronously.
+            </summary>
+            <param name="ID">Guid ID for founding employee</param>
+            <param name="employeeCommand">The updated data of the employee.</param>
+            <returns>An ActionResult containing a ResultResponse with a GetEmployeesDTO representing the updated employee.</returns>
+            <response code="200">Returns the objects from database in good way!</response>
+            <response code="400">Not founding the object in this database!</response>
+        </member>
+        <member name="M:Hospital_Management_System_WEB_API.Controllers.EmployeeController.DeleteEmployeeAsync(System.Guid)">
+            <summary>
+            Deletes an employee asynchronously by their ID.
+            </summary>
+            <param name="ID">The ID of the employee to delete.</param>
+            <returns>An ActionResult containing a ResultResponse with an IEnumerable of GetEmployeesDTO after the deletion.</returns>
+        </member>
+    </members>
+</doc>

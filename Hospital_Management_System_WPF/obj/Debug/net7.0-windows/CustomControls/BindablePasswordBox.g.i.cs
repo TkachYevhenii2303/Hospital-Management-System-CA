@@ -61,8 +61,8 @@ namespace Hospital_Management_System_WPF.CustomControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Hospital_Management_System_WPF;component/customcontrols/bindablepasswordbox.xaml" +
-                    "", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Hospital_Management_System_WPF;V1.0.0.0;component/customcontrols/bindablepasswor" +
+                    "dbox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\CustomControls\BindablePasswordBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

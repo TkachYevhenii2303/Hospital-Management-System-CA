@@ -8,7 +8,6 @@ namespace Hospital_Management_System_WEB_API.Controllers
     public class AppointmentsController : ApplicationController
     {
         private readonly IMediator _mediator;
-
         public AppointmentsController(IMediator mediator)
         {
             _mediator = mediator;

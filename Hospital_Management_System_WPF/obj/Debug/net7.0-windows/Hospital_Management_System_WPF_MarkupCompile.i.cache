@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Education - Programming and Books\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WPF\obj\Debug\net7.0-windows\
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WPF\obj\Debug\net7.0-windows\
 Hospital_Management_System_WPF
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-D:\Education - Programming and Books\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WPF\App.xaml
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WPF\App.xaml
 3-533280196
 1-1658825472
 14398906817
-224-1741265746
+224-282751398
 CustomControls\BindablePasswordBox.xaml;View\LoginView.xaml;View\MainWindow.xaml;
 
-False
+True
 
