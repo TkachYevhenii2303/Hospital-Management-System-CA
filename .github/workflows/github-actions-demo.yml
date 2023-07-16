@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: [ ubuntu-latest, windows-latest ]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -18,5 +18,5 @@ jobs:
           
       - name: Build and test
         run: |
-          dotnet build --configuration Release --no-restore
-          dotnet test --configuration Release --no-build
+          npm run build
+          npm test -- --runInBand
