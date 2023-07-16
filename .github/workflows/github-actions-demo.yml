@@ -20,6 +20,6 @@ jobs:
           
       - name: Build Project
         run: |
-          cd D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API
+          cd "D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API"
           dotnet build
       
