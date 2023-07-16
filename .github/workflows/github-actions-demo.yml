@@ -20,7 +20,8 @@ jobs:
           
       - name: List Contents of Parent Directory
         run: |
-          ls "D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture"
+          cd "D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons"
+          ls
           
       - name: Build Project
         run:
