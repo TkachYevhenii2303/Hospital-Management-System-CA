@@ -18,12 +18,8 @@ jobs:
         with:
           dotnet-version: '7.0'
           
-      - name: List Contents of Parent Directory
-        run: |
-          cd "D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons"
-          ls
-          
       - name: Build Project
         run:
+          cd "D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_Cleant_Architecture\Hospital_Management_System_WEB_API"
           dotnet build
       
