@@ -29,4 +29,8 @@
     <ProjectReference Include="..\Hospital_Management_System_Persistence\Hospital_Management_System_Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include=".github\workflows\github-actions-demo.yml" />
+  </ItemGroup>
+
 </Project>
