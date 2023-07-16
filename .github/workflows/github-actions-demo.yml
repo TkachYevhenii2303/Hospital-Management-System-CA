@@ -4,8 +4,8 @@ on:
     branches:
       - main
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: windows-latest
     
     steps:
       - name: Setup MSBuild
