@@ -14,7 +14,7 @@ using Moq;
 
 namespace Hospital_Management_System_Tests;
 
-public class Testing
+public class AppointmentsTesting
 {
     [Fact] 
     public void Return_Appointments_ReturnStatusCode200()
