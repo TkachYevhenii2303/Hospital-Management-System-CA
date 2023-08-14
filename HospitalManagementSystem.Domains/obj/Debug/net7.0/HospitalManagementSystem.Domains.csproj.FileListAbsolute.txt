@@ -1,0 +1,12 @@
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\bin\Debug\net7.0\HospitalManagementSystem.Domains.deps.json
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\bin\Debug\net7.0\HospitalManagementSystem.Domains.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\bin\Debug\net7.0\HospitalManagementSystem.Domains.pdb
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\obj\Debug\net7.0\HospitalManagementSystem.Domains.csproj.AssemblyReference.cache
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\obj\Debug\net7.0\HospitalManagementSystem.Domains.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\obj\Debug\net7.0\HospitalManagementSystem.Domains.AssemblyInfoInputs.cache
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\obj\Debug\net7.0\HospitalManagementSystem.Domains.AssemblyInfo.cs
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\obj\Debug\net7.0\HospitalManagementSystem.Domains.csproj.CoreCompileInputs.cache
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\obj\Debug\net7.0\HospitalManagementSystem.Domains.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\obj\Debug\net7.0\refint\HospitalManagementSystem.Domains.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\obj\Debug\net7.0\HospitalManagementSystem.Domains.pdb
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Domains\obj\Debug\net7.0\ref\HospitalManagementSystem.Domains.dll

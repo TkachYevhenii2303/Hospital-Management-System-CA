@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "F8kGh9YhtavBMLks73Ezdx3mEj08hKWwrXjqxQukjv8=",
+  "Source": "HospitalManagementSystem.WEBApi",
+  "BasePath": "_content/HospitalManagementSystem.WEBApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

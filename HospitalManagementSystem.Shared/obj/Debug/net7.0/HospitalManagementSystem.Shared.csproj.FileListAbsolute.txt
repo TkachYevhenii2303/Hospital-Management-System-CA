@@ -1,0 +1,12 @@
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\bin\Debug\net7.0\HospitalManagementSystem.Shared.deps.json
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\bin\Debug\net7.0\HospitalManagementSystem.Shared.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\bin\Debug\net7.0\HospitalManagementSystem.Shared.pdb
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\obj\Debug\net7.0\HospitalManagementSystem.Shared.csproj.AssemblyReference.cache
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\obj\Debug\net7.0\HospitalManagementSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\obj\Debug\net7.0\HospitalManagementSystem.Shared.AssemblyInfoInputs.cache
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\obj\Debug\net7.0\HospitalManagementSystem.Shared.AssemblyInfo.cs
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\obj\Debug\net7.0\HospitalManagementSystem.Shared.csproj.CoreCompileInputs.cache
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\obj\Debug\net7.0\HospitalManagementSystem.Shared.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\obj\Debug\net7.0\refint\HospitalManagementSystem.Shared.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\obj\Debug\net7.0\HospitalManagementSystem.Shared.pdb
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Shared\obj\Debug\net7.0\ref\HospitalManagementSystem.Shared.dll
