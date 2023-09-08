@@ -1250,17 +1250,17 @@
           }
         }
       },
-      "HospitalManagementSystem.Domains/1.0.0": {
+      "HospitalManagementSystem.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "MediatR": "12.0.1"
         },
         "compile": {
-          "bin/placeholder/HospitalManagementSystem.Domains.dll": {}
+          "bin/placeholder/HospitalManagementSystem.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/HospitalManagementSystem.Domains.dll": {}
+          "bin/placeholder/HospitalManagementSystem.Models.dll": {}
         }
       },
       "HospitalManagementSystem.Shared/1.0.0": {
@@ -4035,10 +4035,10 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "HospitalManagementSystem.Domains/1.0.0": {
+    "HospitalManagementSystem.Models/1.0.0": {
       "type": "project",
-      "path": "../HospitalManagementSystem.Domains/HospitalManagementSystem.Domains.csproj",
-      "msbuildProject": "../HospitalManagementSystem.Domains/HospitalManagementSystem.Domains.csproj"
+      "path": "../HospitalManagementSystem.Models/HospitalManagementSystem.Models.csproj",
+      "msbuildProject": "../HospitalManagementSystem.Models/HospitalManagementSystem.Models.csproj"
     },
     "HospitalManagementSystem.Shared/1.0.0": {
       "type": "project",
@@ -4051,7 +4051,7 @@
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "FluentValidation >= 11.5.2",
-      "HospitalManagementSystem.Domains >= 1.0.0",
+      "HospitalManagementSystem.Models >= 1.0.0",
       "HospitalManagementSystem.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Http >= 2.2.2",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
@@ -4087,8 +4087,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj": {
-              "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj"
+            "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj": {
+              "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj"
             },
             "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Shared\\HospitalManagementSystem.Shared.csproj": {
               "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Shared\\HospitalManagementSystem.Shared.csproj"

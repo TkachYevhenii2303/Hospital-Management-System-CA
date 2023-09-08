@@ -8,10 +8,8 @@ D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_Sy
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Persistence.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Persistence.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Applications.dll
-D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Domains.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Shared.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Applications.pdb
-D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Domains.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Shared.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\obj\Debug\net7.0\HospitalManagementSystem.Persistence.csproj.CopyComplete
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\obj\Debug\net7.0\HospitalManagementSystem.Persistence.dll
@@ -19,3 +17,5 @@ D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_Sy
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\obj\Debug\net7.0\HospitalManagementSystem.Persistence.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\obj\Debug\net7.0\HospitalManagementSystem.Persistence.genruntimeconfig.cache
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\obj\Debug\net7.0\ref\HospitalManagementSystem.Persistence.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Models.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Persistence\bin\Debug\net7.0\HospitalManagementSystem.Models.pdb

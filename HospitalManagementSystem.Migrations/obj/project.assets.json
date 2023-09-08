@@ -1978,7 +1978,7 @@
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "FluentValidation": "11.5.2",
-          "HospitalManagementSystem.Domains": "1.0.0",
+          "HospitalManagementSystem.Models": "1.0.0",
           "HospitalManagementSystem.Shared": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.EntityFrameworkCore": "7.0.0",
@@ -1993,17 +1993,17 @@
           "bin/placeholder/HospitalManagementSystem.Applications.dll": {}
         }
       },
-      "HospitalManagementSystem.Domains/1.0.0": {
+      "HospitalManagementSystem.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "MediatR": "12.0.1"
         },
         "compile": {
-          "bin/placeholder/HospitalManagementSystem.Domains.dll": {}
+          "bin/placeholder/HospitalManagementSystem.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/HospitalManagementSystem.Domains.dll": {}
+          "bin/placeholder/HospitalManagementSystem.Models.dll": {}
         }
       },
       "HospitalManagementSystem.Persistence/1.0.0": {
@@ -5978,10 +5978,10 @@
       "path": "../HospitalManagementSystem.Applications/HospitalManagementSystem.Applications.csproj",
       "msbuildProject": "../HospitalManagementSystem.Applications/HospitalManagementSystem.Applications.csproj"
     },
-    "HospitalManagementSystem.Domains/1.0.0": {
+    "HospitalManagementSystem.Models/1.0.0": {
       "type": "project",
-      "path": "../HospitalManagementSystem.Domains/HospitalManagementSystem.Domains.csproj",
-      "msbuildProject": "../HospitalManagementSystem.Domains/HospitalManagementSystem.Domains.csproj"
+      "path": "../HospitalManagementSystem.Models/HospitalManagementSystem.Models.csproj",
+      "msbuildProject": "../HospitalManagementSystem.Models/HospitalManagementSystem.Models.csproj"
     },
     "HospitalManagementSystem.Persistence/1.0.0": {
       "type": "project",

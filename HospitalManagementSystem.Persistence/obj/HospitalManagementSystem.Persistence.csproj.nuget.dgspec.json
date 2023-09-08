@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj": {
-                "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj"
+              "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj": {
+                "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj"
               },
               "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Shared\\HospitalManagementSystem.Shared.csproj": {
                 "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Shared\\HospitalManagementSystem.Shared.csproj"
@@ -100,14 +100,14 @@
         }
       }
     },
-    "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj": {
+    "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj",
-        "projectName": "HospitalManagementSystem.Domains",
-        "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj",
+        "projectUniqueName": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj",
+        "projectName": "HospitalManagementSystem.Models",
+        "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\obj\\",
+        "outputPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

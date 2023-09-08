@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z62AdjGyZ+Whd/gBwFrDgADJhQ2Owl0k7lG6bZbdh+mxRTCtsLQgcV1aMgeo32w0zqPLcN5R4r2GUCzFsE0eJA==",
+  "dgSpecHash": "C389tD9uvRFU441CWs23cEXzEt5ScXMGUZjURA3+cTb2ISR5038UygAO3OGEHO9mZoGoUcpUN+fJWOjZBo+DsA==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj",
+  "projectFilePath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

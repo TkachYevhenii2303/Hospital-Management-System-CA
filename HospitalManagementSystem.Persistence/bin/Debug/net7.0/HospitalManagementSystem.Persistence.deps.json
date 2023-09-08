@@ -1133,7 +1133,7 @@
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "FluentValidation": "11.5.2",
-          "HospitalManagementSystem.Domains": "1.0.0",
+          "HospitalManagementSystem.Models": "1.0.0",
           "HospitalManagementSystem.Shared": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.EntityFrameworkCore": "7.0.7",
@@ -1145,12 +1145,12 @@
           "HospitalManagementSystem.Applications.dll": {}
         }
       },
-      "HospitalManagementSystem.Domains/1.0.0": {
+      "HospitalManagementSystem.Models/1.0.0": {
         "dependencies": {
           "MediatR": "12.0.1"
         },
         "runtime": {
-          "HospitalManagementSystem.Domains.dll": {}
+          "HospitalManagementSystem.Models.dll": {}
         }
       },
       "HospitalManagementSystem.Shared/1.0.0": {
@@ -1990,7 +1990,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "HospitalManagementSystem.Domains/1.0.0": {
+    "HospitalManagementSystem.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

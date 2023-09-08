@@ -118,11 +118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj",
-      "projectName": "HospitalManagementSystem.Domains",
-      "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\HospitalManagementSystem.Domains.csproj",
+      "projectUniqueName": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj",
+      "projectName": "HospitalManagementSystem.Models",
+      "projectPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Domains\\obj\\",
+      "outputPath": "D:\\Programming\\Learning ASP.NET Core\\ASP.NET Core Lessons\\Hospital_Management_System_CA\\HospitalManagementSystem.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

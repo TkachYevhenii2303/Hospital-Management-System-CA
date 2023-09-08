@@ -72,7 +72,6 @@ D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_Sy
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Applications.dll
-D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Domains.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Infrastructure.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Migrations.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Persistence.dll
@@ -81,7 +80,6 @@ D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_Sy
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Infrastructure.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Migrations.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Persistence.pdb
-D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Domains.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Shared.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\obj\Debug\net7.0\staticwebassets\msbuild.HospitalManagementSystem.WEBApi.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\obj\Debug\net7.0\staticwebassets\msbuild.build.HospitalManagementSystem.WEBApi.props
@@ -98,3 +96,5 @@ D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_Sy
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\obj\Debug\net7.0\HospitalManagementSystem.WEBApi.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\obj\Debug\net7.0\HospitalManagementSystem.WEBApi.genruntimeconfig.cache
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\obj\Debug\net7.0\ref\HospitalManagementSystem.WEBApi.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Models.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.WEBApi\bin\Debug\net7.0\HospitalManagementSystem.Models.pdb

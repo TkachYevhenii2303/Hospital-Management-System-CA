@@ -10,7 +10,6 @@ namespace Hospital_Management_System_WEB_API.Extensions
         {
             services.AddSwaggerConfiguration();
         }
-
         private static void AddSwaggerConfiguration(this IServiceCollection services)
         {
             services.AddSwaggerGen(options =>
@@ -25,8 +24,6 @@ namespace Hospital_Management_System_WEB_API.Extensions
                 var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
             });
-
-          
         }
     }
 }

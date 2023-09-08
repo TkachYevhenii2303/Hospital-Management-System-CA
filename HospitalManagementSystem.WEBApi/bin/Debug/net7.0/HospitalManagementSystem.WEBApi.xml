@@ -4,13 +4,6 @@
         <name>HospitalManagementSystem.WEBApi</name>
     </assembly>
     <members>
-        <member name="M:Hospital_Management_System_WEB_API.Controllers.AdministratorController.InsertToken(Hospital_Management_System_Domains.Entities.CustomerAdministrator)">
-            <summary>
-            Login operation with our application
-            </summary>
-            <param name="customerAdministratorDTO"></param>
-            <returns></returns>
-        </member>
         <member name="M:Hospital_Management_System_WEB_API.Controllers.AppointmentsController.ReturnAppointmentsAsync">
             <summary>
             Retrieves all appointments asynchronously.

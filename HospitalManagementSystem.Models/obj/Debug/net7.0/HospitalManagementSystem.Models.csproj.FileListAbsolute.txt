@@ -1,0 +1,12 @@
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\bin\Debug\net7.0\HospitalManagementSystem.Models.deps.json
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\bin\Debug\net7.0\HospitalManagementSystem.Models.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\bin\Debug\net7.0\HospitalManagementSystem.Models.pdb
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\obj\Debug\net7.0\HospitalManagementSystem.Models.csproj.AssemblyReference.cache
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\obj\Debug\net7.0\HospitalManagementSystem.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\obj\Debug\net7.0\HospitalManagementSystem.Models.AssemblyInfoInputs.cache
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\obj\Debug\net7.0\HospitalManagementSystem.Models.AssemblyInfo.cs
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\obj\Debug\net7.0\HospitalManagementSystem.Models.csproj.CoreCompileInputs.cache
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\obj\Debug\net7.0\HospitalManagementSystem.Models.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\obj\Debug\net7.0\refint\HospitalManagementSystem.Models.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\obj\Debug\net7.0\HospitalManagementSystem.Models.pdb
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Models\obj\Debug\net7.0\ref\HospitalManagementSystem.Models.dll

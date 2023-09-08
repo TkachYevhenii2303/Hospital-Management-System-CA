@@ -8,12 +8,10 @@ D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_Sy
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Migrations.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Migrations.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Applications.dll
-D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Domains.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Persistence.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Shared.dll
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Persistence.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Applications.pdb
-D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Domains.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Shared.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\obj\Debug\net7.0\HospitalManagementSystem.Migrations.csproj.CopyComplete
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\obj\Debug\net7.0\HospitalManagementSystem.Migrations.dll
@@ -21,3 +19,5 @@ D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_Sy
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\obj\Debug\net7.0\HospitalManagementSystem.Migrations.pdb
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\obj\Debug\net7.0\HospitalManagementSystem.Migrations.genruntimeconfig.cache
 D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\obj\Debug\net7.0\ref\HospitalManagementSystem.Migrations.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Models.dll
+D:\Programming\Learning ASP.NET Core\ASP.NET Core Lessons\Hospital_Management_System_CA\HospitalManagementSystem.Migrations\bin\Debug\net7.0\HospitalManagementSystem.Models.pdb
